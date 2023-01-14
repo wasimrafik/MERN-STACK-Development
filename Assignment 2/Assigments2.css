@@ -1,0 +1,51 @@
+#invite{height: 900px;
+    width: auto;
+background-image: url(img.jpg);
+
+background-position: center;
+
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h3{
+    text-align: center;
+    color: red;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.lnk{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
+.lnk1{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.bnt{
+    border: 2px solid none;
+    color: green;
+    margin: 20px 0px 0px 680px;
+
+
+}
+.map{
+    size: 100px;
+    margin-left: 580px;
+
+}
+
+#icn{
+    color: red;
+}

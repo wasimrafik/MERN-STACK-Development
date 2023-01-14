@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(135, 186, 223, 0.793);
+    position: relative;
+}
+
+.box1{
+    width: 400px;
+    height: 550px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+form h2{
+    font-size: 30px;
+    letter-spacing: 7px;
+    position: relative;
+    top: 50px;
+    padding-left: 40px;
+    /* padding-top: 20px; */
+}
+
+input[type="text"]{
+        border: none;
+        width: 300px;
+        height: 30px;
+        margin-top: 30px;
+        outline: none;
+}
+.cred1{
+    border-bottom: 2px solid grey;
+    color: gray;
+}
+
+input[type="text"]::placeholder{
+            padding-left: 20px;
+            font-size: 20px;
+}
+
+input[type="number"]{
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+input[type="number"]::placeholder{
+        padding-left: 20px;
+        font-size: 20px;}
+
+
+input[type="email"]{
+            border: none;
+            outline: none;
+            width: 250px;
+            height: 30px;
+        }
+input[type="email"]::placeholder{
+                padding-left: 20px;
+                font-size: 20px;}
+
+
+input[type="password"]{
+                    border: none;
+                    outline: none;
+                    width: 250px;
+                    height: 30px;
+                }
+input[type="password"]::placeholder{
+                    padding-left: 20px;
+                    font-size: 20px;}
+
+button{
+    width: 300px;
+    height: 40px;
+    margin-left: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(120, 184, 230);
+}
+
+.img2{
+    position: absolute;
+    left: 800px;
+    top: 390px;
+}
+
+.img1{
+    position: absolute;
+    left: 350px;
+    top: 169px;
+    z-index: 10;
+
+}

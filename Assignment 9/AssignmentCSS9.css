@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+ul{
+    width: 50%;
+    height: 20px;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    text-align: right;
+    padding-left: 350px;
+
+}
+
+nav h1{
+    width: 50%; 
+    margin: 1px;
+    margin-left: 120px;
+    margin-top: 13px;
+
+}
+
+ul li{
+    height: 22px;
+    list-style-type: none;
+    padding: 5px 20px;
+}
+
+a{
+    color: rgb(1, 1, 1);
+    list-style-type: none;
+    text-decoration: none;
+} 
+
+.main{
+    background-image: linear-gradient(to right, rgba(47, 44, 123, 0.574), rgba(60, 214, 238, 0.7)), url(bg.jpeg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.box1{
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: justify;
+    color: white;
+
+}
+
+.box2{
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+.img2{
+    margin-top: 50px;
+ }
+
+ .img1{
+    position: absolute; top: 140px; left: 70px;
+ }
+
+button{
+    
+    width: 110px;
+    height: 50px;
+    margin-top: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(245, 222, 179, 0);
+    color: white;
+    border-radius: 10px;
+}
+
+.box1 p{
+    width: 500px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.box1 h1{
+    width: 400px;
+    padding-top: px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+}
+
+button:hover{
+    background-color: rgba(33, 0, 249, 0.574);
+}
+
+nav ul li:hover{
+    background-color: blue;
+    border-radius: 20px;
+}

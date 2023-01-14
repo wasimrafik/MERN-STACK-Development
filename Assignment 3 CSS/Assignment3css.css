@@ -1,0 +1,163 @@
+/* .box{
+    height: 900px;
+    width: 900px;
+    border: 3px solid black;
+    
+    
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid lightpink;
+}
+
+.icn1{
+    height: 40px;
+    width: 190px;
+    border: 2px solid black;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+.img1{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.icn1{
+    border: 1px solid indianred;
+    margin: 0px 35px;
+    border-radius: 40px;
+    background-color: #eba9ae;
+    padding-top: 15px;
+    margin: 10px 40px;
+}
+#logo{
+    /* margin-top: 20px; */
+    /* margin: 5px 12px;
+}
+
+#fb1:hover{
+    color: blue;
+}
+#t1:hover{
+    color: blue;
+}
+#I1:hover{
+    color: rgb(234, 16, 176);
+}
+
+.text1{
+    font-size: 20px;
+}
+.text2{
+    font-size: 20px;
+    color: grey;
+    letter-spacing: 5px;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid lightpink;
+}
+
+#fb11:hover{
+    color: blue;
+}
+#t11:hover{
+    color: blue;
+}
+#I11:hover{
+    color: rgb(234, 16, 176);}
+
+
+
+.box3{
+    height: 300px;
+    width: 300px;
+    border: 2px solid lightpink; */
+/* }
+#fb12:hover{
+    color: blue;
+}
+#t12:hover{
+    color: blue;
+}
+#I12:hover{
+    color: rgb(234, 16, 176);}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 2px solid lightpink;
+}
+#fb13:hover{
+    color: blue;
+}
+#t13:hover{
+    color: blue;
+}
+#I13:hover{
+    color: rgb(234, 16, 176);} */ 
+
+.Text{
+    width: 700px;
+    height: 200px;
+    font-size: 20px;
+    margin: 0 400px;
+    text-align: center;
+    text-align: justify;
+}
+.Text h5{
+    font-size: 30px;
+    text-align: center;
+}
+
+.Name{
+    height: 280px;
+    width: 280px;
+    border: 2px solid lightpink;
+    margin: 0px 30px;
+    float: left;
+    text-align: center;
+    padding-left: 11px;
+}
+.img1{
+border-radius: 50%;
+text-align: center;
+margin: 20px 50px 0;
+}
+.logo{
+    background-color: lightpink;
+    border: 2px solid lightpink;
+    padding: 8px;
+    margin: 0px 35px;
+    border-radius: 30px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+
+.logo .icon{
+        color: grey;
+        padding: 5px
+}
+.logo .icon:hover{
+    color: blue;
+    font-size: 20px;
+
+}
+
+.text1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 400;
+}
+.text2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 200;
+    color: grey;
+    letter-spacing: 3px;
+}

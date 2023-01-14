@@ -1,0 +1,42 @@
+#box{
+    border: none;
+    background-color: darkorange;
+    border-radius: 20px;
+    width: 13%;.
+    height: 25%;
+    text-align: center;
+}
+
+#name{
+    border: none;
+    border-radius: 5px;
+}
+#password{
+    border: none;
+    border-radius: 5px;
+}
+#textar{
+    border: none;
+    border-radius: 5px;
+}
+#sub{
+    border: none;
+    border-radius: 5px;
+    color: darkorange;
+    
+    
+}
+.location{
+    color: white;
+    size: 20;
+    align-items: center;
+}
+#name1{
+    color: white;
+}
+#pass1{
+    color: white    ;
+}
+#text1{
+    color: white    ;
+}

@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make the web page as shown below: 
+Color: 
+            Green: #008374
+            Dark Green: #00796B
+            Orange:  #F85A40
+            Grey: #FFFFFF99
+            White: #FFFFFF
+On hover: White: #FFFFFF */
+
+/* body{
+    height: 50vh;
+    background-color: #008374;
+} */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00796B;
+    color: white;
+    
+
+}
+.nav1{
+    width: 100vw;
+    height: 20px;
+      display: flex;
+    padding-left: 90px;
+    padding-top: 13px;
+    color: white;
+    
+}
+.nav1 i:hover{
+    color: #F85A40;
+}
+
+.nav span{
+    display: flex;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    margin: 2px;
+    padding: 5px;
+    align-items: center;
+}
+
+.contact i{
+    margin-left: 5px;
+    justify-content: center;
+
+}
+.material-icons{
+    padding-top: 5px;
+    justify-content: center;
+    justify-items: center;
+   
+}
+
+.icon{
+    width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    justify-items: right;
+}
+
+.icon i{
+    padding-right: 20px;
+}
+
+.nav2{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #008374;
+}
+
+.nav2 h1{
+    margin-left: 100px;
+}
+.nav2 i{
+    display: none;
+}
+
+.nav2 h1 span{
+    font-size: 40px;
+    color: #F85A40;
+}
+
+ul{
+    
+    display: flex;
+    margin-right: 70px;
+    
+}
+
+ul li{
+    list-style-type: none;
+    padding: 5px;
+    /* align-items: center;
+    justify-content: right; */
+    margin-right: 20px;
+    padding-top: 20px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+ul li a:hover {
+    color: #F85A40;
+    border: 2px solid #F85A40;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+ul li .material-icons{
+   margin-top: 0px;
+   /* justify-items: center; */
+    padding-top: 0px;
+}
+
+
+
+.main{
+        height: 80vh;
+        background-color: #008374;
+        color: white;
+}
+
+.box1{
+    height: 70vh;
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 30px;
+    background-color: #008374;
+    color: white;
+}
+
+.box1 .text1{
+    margin-left: 80px;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    padding: auto;
+    
+
+}
+.text1 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text1 p{
+    width: 80%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.text1 button{
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    margin-right: 40px;
+    border-radius: 30px;
+    background-color: #00796B;
+    color: white;
+}
+
+button:hover{
+    color: #F85A40;
+    transform: skew(10deg);
+    transition: all 1s;
+}
+
+.text1 a:hover{
+    color: #F85A40;
+}
+
+.text1 a{
+   text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-bottom: 100px;
+}
+.box11{
+    width: 200px;
+    height: 200px;
+    border: 2px solid transparent;
+    text-align: center;
+   padding-top: 80px;   
+   background-color: #008374;
+   box-shadow: 0px 0px 20px #00796B;
+   border-radius: 10px;
+}
+
+.box11:hover{
+    color: #F85A40;
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+@media screen and (max-width: 425px){
+
+    .nav1{
+        display: none;
+        visibility: hidden;
+    }
+    .nav2{
+       width: 552px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+.nav2 i{
+    display: block;
+    text-align: center;
+}
+    .nav2::after{
+        content: "<i class="material-icons">menu</i>";
+    }
+    .nav2 ul{
+        display: none;
+    }
+    .nav2 h1{
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .main{
+        width: 100%;
+        display: flex;
+        background-color: #00796B;
+    }
+    .box1{
+        
+        flex-direction: column;
+        align-items: center;
+        height: 200vh;
+    }
+    .box1 .text1{
+        order: 2;
+    }
+    .box1 .img{
+        order: 1;
+    }
+    .box2{
+        flex-direction: column;
+        justify-content: left;
+        display: block;
+        position: absolute;
+        top: 850px;
+        left: 200px;
+    }
+    .box11{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 425px) and  (max-width: 940px){
+
+    header{
+        width: 940px;
+    }
+    .nav2 h1 {
+        margin-left: 0px;
+    }
+    .nav1 {
+       width: 842px;
+        padding-left: 0px; 
+        height: 40px;
+        background-color: #00796B;
+}
+.icon {
+    width: 507px;
+}
+.nav2 {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 0px;
+    background-color: #008374;
+    width: 940px;
+}
+
+ul {
+    display: flex;
+    margin-right: 0px;
+}
+ul li {
+    list-style-type: none;
+    padding: 1px;
+    
+    padding-top: 20px;
+}
+.box1 {
+    display: flex;
+    padding-top: 30px;
+    background-color: #008374;
+    color: white;
+    width: auto;
+    position: relative;
+}
+
+.text1 h1 {
+    flex-direction: column;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.box1 img {
+    flex-direction: column;
+   margin-right: 30px;
+    order: 1;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    width: 940px;
+}
+.text1 p {
+   
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box1 .text1{
+    order: 2;
+}
+.box1 .img{
+    order: 1;
+}
+.text1{
+    width: 100%;
+    display: block;
+}
+
+.text1{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+
+
+
+.box11 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid transparent;
+    text-align: center;
+    margin-top: 1000px;
+    background-color: #008374;
+    box-shadow: 0px 0px 20px #00796b;
+    border-radius: 10px;
+
+}
+}
